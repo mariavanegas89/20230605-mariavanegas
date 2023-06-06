@@ -1,0 +1,27 @@
+ 
+  175  git init
+  176  git remote add origin https://github.com/maryavanegas/20230605-mariavanegas.git
+  177  git init
+  178  git branch -M main
+  179  git remote add origin https://github.com/maryavanegas/20230605-mariavanegas.git
+  180  touch comandos.txt main.js index.html
+  181  git add .
+  182  git commit -m "commit01 mariavanegas"
+  183  git push
+  184    git push --set-upstream origin main
+  185  git checkout -b feature
+  186  mkdir hardware software seguridadInformatica
+  187  touch hardware
+  188  touch hardware/resumen.txt
+  189  touch software/resumen.txt, seguridadInformatica/resumen.txt
+  190  git status
+  192  git add .
+  193  git commit -m "commit 02 maria vanegas"
+  194  git push
+  195   git push --set-upstream origin feature
+  196  git checkout main
+  197  mv main.js resumenhardware.txt
+  198  mv index.html resumensoftware.txt
+  199  git status
+  200  notepad ~/.bash_history
+  202  history
